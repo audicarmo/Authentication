@@ -10,7 +10,6 @@ import java.io.Serializable;
 public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint, Serializable {
 
     private static final long serialVersionUID = -7858869558953243875L;
-
     private static final String UNAUTHORIZED = "Não Autorizado";
 
     public void start(HttpServletRequest request, HttpServletResponse response, AuthenticationException authenticationException)
